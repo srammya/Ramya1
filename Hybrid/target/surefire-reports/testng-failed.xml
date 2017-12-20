@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [My Sample Suite]">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="appURL" value="http://gmail.com"/>
+  <test name="Driver Script Suite 1">
+    <classes>
+      <class name="com.object.test.app.DriverApp"/>
+    </classes>
+  </test> <!-- Driver Script Suite 1 -->
+</suite> <!-- Failed suite [My Sample Suite] -->

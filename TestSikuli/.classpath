@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/v-ramya.k/Documents/Jars/selenium-server-standalone-2.52.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/v-ramya.k/Downloads/Sikuli/Sikuli/sikuli-ide.jar"/>
+	<classpathentry kind="lib" path="C:/Users/v-ramya.k/Downloads/Sikuli/Sikuli/sikuli-java.jar"/>
+	<classpathentry kind="lib" path="C:/Users/v-ramya.k/Downloads/Sikuli/Sikuli/sikuli-setup.jar"/>
+	<classpathentry kind="lib" path="C:/Users/v-ramya.k/Downloads/Sikuli/Sikuli/sikuli-tessdata.jar"/>
+	<classpathentry kind="lib" path="C:/Users/v-ramya.k/Downloads/sikuli-api-1.1.0-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

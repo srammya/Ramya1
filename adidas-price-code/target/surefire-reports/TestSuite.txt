@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 10.712 sec <<< FAILURE!
+setUp(com.specomm.adidas.pricevalidation.PriceValidation)  Time elapsed: 10.277 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:101)
+	at com.specomm.adidas.common.utils.ReusableActions.loadPropFileValues(ReusableActions.java:522)
+	at com.specomm.adidas.pricevalidation.PriceValidation.setUp(PriceValidation.java:38)
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sinpost_Ecommerce_Suite" parallel="false" preserve-order="true">
+
+	<listeners>
+	
+   <listener class-name="com.specomm.adidas.testreport.CustomReporterListener" />
+     <listener class-name="org.testng.reporters.SuiteHTMLReporter" />
+    <listener class-name="com.specomm.adidas.testreport.TestListener"/> 
+    
+	</listeners>
+	
+	<test name="Adidas-sg TestCases">
+	<!-- Write your test execution from here -->
+	<classes>
+		
+	
+	
+	<class name="com.specomm.adidas.accountcreation.NewAccountCreationFlow"/>
+	  <class name="com.specomm.adidas.search.InValidSearchFlow"/>
+	<class name="com.specomm.adidas.loginflow.InvalidUserName"/>
+	<class name="com.specomm.adidas.loginflow.InvalidPassword"/>
+	<class name="com.specomm.adidas.loginflow.ForgotPasswordFlow"/> 
+	<class name="com.specomm.adidas.checkoutflows.LoginCheckoutWithPayPal"/>
+	<class name="com.specomm.adidas.search.ValidSearchFlow"/>
+	<class name="com.specomm.adidas.paymentdeclinedflows.GuestCheckoutWithVisaCardDeclined"/>
+	<class name="com.specomm.adidas.checkoutflows.GuestCheckoutWithMasterCard"/>
+	<class name="com.specomm.adidas.paymentdeclinedflows.GuestCheckoutWithMasterCardDeclined"/>
+	<class name="com.specomm.adidas.checkoutflows.GuestCheckoutWithPayPal"/>
+	<class name="com.specomm.adidas.checkoutflows.GuestCheckoutWith3DSecureMasterCard"/> 
+	<class name="com.specomm.adidas.checkoutflows.GuestCheckoutWith3DSecureVisaCard"/>
+	<class name="com.specomm.adidas.checkoutflows.GuestCheckoutWithVisaCard"/>
+	<class name="com.specomm.adidas.continueshopping.ContinueShoppingFromDeclinedPayment"/> 
+	<class name="com.specomm.adidas.continueshopping.ContinueShoppingFromPaymentDone"/>
+	<class name="com.specomm.adidas.checkoutflows.LoginCheckoutWith3DSecureVisaCard"/>
+	<class name="com.specomm.adidas.checkoutflows.LoginCheckoutWith3DSecureMasterCard"/>
+	<class name="com.specomm.adidas.paymentdeclinedflows.LoginCheckoutWithMasterCardDeclined"/>
+	<class name="com.specomm.adidas.paymentdeclinedflows.LoginCheckoutWithVisaCardDeclined"/>
+	<class name="com.specomm.adidas.promotioncode.InvalidPromotionCode"/>
+	<class name="com.specomm.adidas.validcreditcarddetails.ValidateMasterCCDetails"/>
+	<class name="com.specomm.adidas.validcreditcarddetails.ValidateVisaCCDetails"/>
+	<class name="com.specomm.adidas.checkoutflows.LoginCheckoutWithMasterCard"/>
+	<class name="com.specomm.adidas.checkoutflows.LoginCheckoutWithVisaCard"/>
+	<class name="com.specomm.adidas.continueshopping.ContinueShoppingFromCheckout"/>
+	<class name="com.specomm.adidas.shoppingbagvalidations.ShoppingBagValidations"/> 
+	
+	</classes>
+	</test> 
+
+	
+	
+
+</suite>

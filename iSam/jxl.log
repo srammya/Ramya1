@@ -1,0 +1,220 @@
+2016-09-28 14:58:31,957 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+2016-09-28 14:58:31,977 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2016-09-28 14:58:31,977 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}->http://parabank.parasoft.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-09-28 14:58:31,987 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 0][route: {}->http://parabank.parasoft.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-09-28 14:58:31,997 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Opening connection {}->http://parabank.parasoft.com:80
+2016-09-28 14:58:31,997 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to parabank.parasoft.com/192.55.86.58:80
+2016-09-28 14:58:32,257 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.21.104:64424<->192.55.86.58:80
+2016-09-28 14:58:32,257 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Executing request GET /parabank/services/bank/customers/12212/ HTTP/1.1
+2016-09-28 14:58:32,257 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> GET /parabank/services/bank/customers/12212/ HTTP/1.1
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Host: parabank.parasoft.com
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Connection: Keep-Alive
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.headers  - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "GET /parabank/services/bank/customers/12212/ HTTP/1.1[\r][\n]"
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Host: parabank.parasoft.com[\r][\n]"
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)[\r][\n]"
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-09-28 14:58:32,267 [DEBUG] org.apache.http.wire  - http-outgoing-0 >> "[\r][\n]"
+2016-09-28 14:58:32,507 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2016-09-28 14:58:32,507 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-09-28 14:58:32,507 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Date: Wed, 28 Sep 2016 09:28:32 GMT[\r][\n]"
+2016-09-28 14:58:32,507 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Content-Type: application/xml[\r][\n]"
+2016-09-28 14:58:32,507 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "Content-Length: 319[\r][\n]"
+2016-09-28 14:58:32,507 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+2016-09-28 14:58:32,517 [DEBUG] org.apache.http.wire  - http-outgoing-0 << "<?xml version="1.0" encoding="UTF-8" standalone="yes"?><customer><id>12212</id><firstName>John</firstName><lastName>Smith</lastName><address><street>1431 Main St</street><city>Beverly Hills</city><state>CA</state><zipCode>90210</zipCode></address><phoneNumber>310-447-4121</phoneNumber><ssn>622-11-9999</ssn></customer>"
+2016-09-28 14:58:32,537 [DEBUG] org.apache.http.headers  - http-outgoing-0 << HTTP/1.1 200 OK
+2016-09-28 14:58:32,537 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Server: Apache-Coyote/1.1
+2016-09-28 14:58:32,537 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Date: Wed, 28 Sep 2016 09:28:32 GMT
+2016-09-28 14:58:32,537 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Content-Type: application/xml
+2016-09-28 14:58:32,537 [DEBUG] org.apache.http.headers  - http-outgoing-0 << Content-Length: 319
+2016-09-28 14:58:32,537 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Connection can be kept alive indefinitely
+2016-09-28 14:58:32,557 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+2016-09-28 14:58:32,557 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2016-09-28 14:58:32,557 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}->http://api.openweathermap.org:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-09-28 14:58:32,557 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 1][route: {}->http://api.openweathermap.org:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-09-28 14:58:32,557 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Opening connection {}->http://api.openweathermap.org:80
+2016-09-28 14:58:32,557 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to api.openweathermap.org/139.59.9.23:80
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.21.104:64425<->139.59.9.23:80
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Executing request GET /data/2.5/weather?q=Amsterdam HTTP/1.1
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.headers  - http-outgoing-1 >> GET /data/2.5/weather?q=Amsterdam HTTP/1.1
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.headers  - http-outgoing-1 >> Host: api.openweathermap.org
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.headers  - http-outgoing-1 >> Connection: Keep-Alive
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.headers  - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.headers  - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.wire  - http-outgoing-1 >> "GET /data/2.5/weather?q=Amsterdam HTTP/1.1[\r][\n]"
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.wire  - http-outgoing-1 >> "Host: api.openweathermap.org[\r][\n]"
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.wire  - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.wire  - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)[\r][\n]"
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.wire  - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-09-28 14:58:32,578 [DEBUG] org.apache.http.wire  - http-outgoing-1 >> "[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "Server: openresty[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "Date: Wed, 28 Sep 2016 09:28:32 GMT[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "Content-Length: 107[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "X-Cache-Key: /data/2.5/weather?q=amsterdam[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "Access-Control-Allow-Methods: GET, POST[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "[\r][\n]"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.wire  - http-outgoing-1 << "{"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}"
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << HTTP/1.1 401 Unauthorized
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << Server: openresty
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << Date: Wed, 28 Sep 2016 09:28:32 GMT
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << Content-Length: 107
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << Connection: keep-alive
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << X-Cache-Key: /data/2.5/weather?q=amsterdam
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << Access-Control-Allow-Origin: *
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << Access-Control-Allow-Credentials: true
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.headers  - http-outgoing-1 << Access-Control-Allow-Methods: GET, POST
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Connection can be kept alive indefinitely
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Authentication required
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - api.openweathermap.org:80 requested authentication
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Response contains no authentication challenges
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}->http://parabank.parasoft.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 2][route: {}->http://parabank.parasoft.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Opening connection {}->http://parabank.parasoft.com:80
+2016-09-28 14:58:32,598 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to parabank.parasoft.com/192.55.86.58:80
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.21.104:64426<->192.55.86.58:80
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Executing request GET /parabank/services/bank/customers/12212/ HTTP/1.1
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.headers  - http-outgoing-2 >> GET /parabank/services/bank/customers/12212/ HTTP/1.1
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.headers  - http-outgoing-2 >> Host: parabank.parasoft.com
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.headers  - http-outgoing-2 >> Connection: Keep-Alive
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.headers  - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.headers  - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.wire  - http-outgoing-2 >> "GET /parabank/services/bank/customers/12212/ HTTP/1.1[\r][\n]"
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.wire  - http-outgoing-2 >> "Host: parabank.parasoft.com[\r][\n]"
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.wire  - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.wire  - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)[\r][\n]"
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.wire  - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-09-28 14:58:33,328 [DEBUG] org.apache.http.wire  - http-outgoing-2 >> "[\r][\n]"
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.wire  - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.wire  - http-outgoing-2 << "Server: Apache-Coyote/1.1[\r][\n]"
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.wire  - http-outgoing-2 << "Date: Wed, 28 Sep 2016 09:28:33 GMT[\r][\n]"
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.wire  - http-outgoing-2 << "Content-Type: application/xml[\r][\n]"
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.wire  - http-outgoing-2 << "Content-Length: 319[\r][\n]"
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.wire  - http-outgoing-2 << "[\r][\n]"
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.wire  - http-outgoing-2 << "<?xml version="1.0" encoding="UTF-8" standalone="yes"?><customer><id>12212</id><firstName>John</firstName><lastName>Smith</lastName><address><street>1431 Main St</street><city>Beverly Hills</city><state>CA</state><zipCode>90210</zipCode></address><phoneNumber>310-447-4121</phoneNumber><ssn>622-11-9999</ssn></customer>"
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.headers  - http-outgoing-2 << HTTP/1.1 200 OK
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.headers  - http-outgoing-2 << Server: Apache-Coyote/1.1
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.headers  - http-outgoing-2 << Date: Wed, 28 Sep 2016 09:28:33 GMT
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.headers  - http-outgoing-2 << Content-Type: application/xml
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.headers  - http-outgoing-2 << Content-Length: 319
+2016-09-28 14:58:33,738 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Connection can be kept alive indefinitely
+2016-09-28 14:58:33,758 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+2016-09-28 14:58:33,758 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2016-09-28 14:58:33,758 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}->http://api.openweathermap.org:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-09-28 14:58:33,758 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 3][route: {}->http://api.openweathermap.org:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-09-28 14:58:33,758 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Opening connection {}->http://api.openweathermap.org:80
+2016-09-28 14:58:33,758 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to api.openweathermap.org/139.59.9.23:80
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.21.104:64427<->139.59.9.23:80
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Executing request GET /data/2.5/weather?q=Amsterdam HTTP/1.1
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.headers  - http-outgoing-3 >> GET /data/2.5/weather?q=Amsterdam HTTP/1.1
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.headers  - http-outgoing-3 >> Host: api.openweathermap.org
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.headers  - http-outgoing-3 >> Connection: Keep-Alive
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.headers  - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.headers  - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.wire  - http-outgoing-3 >> "GET /data/2.5/weather?q=Amsterdam HTTP/1.1[\r][\n]"
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.wire  - http-outgoing-3 >> "Host: api.openweathermap.org[\r][\n]"
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.wire  - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.wire  - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)[\r][\n]"
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.wire  - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-09-28 14:58:33,779 [DEBUG] org.apache.http.wire  - http-outgoing-3 >> "[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "Server: openresty[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "Date: Wed, 28 Sep 2016 09:28:33 GMT[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "Content-Length: 107[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "X-Cache-Key: /data/2.5/weather?q=amsterdam[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "Access-Control-Allow-Methods: GET, POST[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "[\r][\n]"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.wire  - http-outgoing-3 << "{"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}"
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << HTTP/1.1 401 Unauthorized
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << Server: openresty
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << Date: Wed, 28 Sep 2016 09:28:33 GMT
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << Content-Type: application/json; charset=utf-8
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << Content-Length: 107
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << Connection: keep-alive
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << X-Cache-Key: /data/2.5/weather?q=amsterdam
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << Access-Control-Allow-Origin: *
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << Access-Control-Allow-Credentials: true
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.headers  - http-outgoing-3 << Access-Control-Allow-Methods: GET, POST
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Connection can be kept alive indefinitely
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Authentication required
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - api.openweathermap.org:80 requested authentication
+2016-09-28 14:58:33,799 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Response contains no authentication challenges
+2016-09-28 14:58:34,319 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: default
+2016-09-28 14:58:34,329 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2016-09-28 14:58:34,329 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {}->http://api.openweathermap.org:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2016-09-28 14:58:34,329 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 4][route: {}->http://api.openweathermap.org:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-09-28 14:58:34,329 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Opening connection {}->http://api.openweathermap.org:80
+2016-09-28 14:58:34,329 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to api.openweathermap.org/139.59.9.23:80
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.21.104:64429<->139.59.9.23:80
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Executing request GET /data/2.5/weather?q=Amsterdam HTTP/1.1
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.headers  - http-outgoing-4 >> GET /data/2.5/weather?q=Amsterdam HTTP/1.1
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.headers  - http-outgoing-4 >> Host: api.openweathermap.org
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.headers  - http-outgoing-4 >> Connection: Keep-Alive
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.headers  - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.headers  - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.wire  - http-outgoing-4 >> "GET /data/2.5/weather?q=Amsterdam HTTP/1.1[\r][\n]"
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.wire  - http-outgoing-4 >> "Host: api.openweathermap.org[\r][\n]"
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.wire  - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.wire  - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.7.0_51)[\r][\n]"
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.wire  - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2016-09-28 14:58:34,339 [DEBUG] org.apache.http.wire  - http-outgoing-4 >> "[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "Server: openresty[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "Date: Wed, 28 Sep 2016 09:28:34 GMT[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "Content-Length: 107[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "X-Cache-Key: /data/2.5/weather?q=amsterdam[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "Access-Control-Allow-Origin: *[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "Access-Control-Allow-Credentials: true[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "Access-Control-Allow-Methods: GET, POST[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "[\r][\n]"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.wire  - http-outgoing-4 << "{"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}"
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.headers  - http-outgoing-4 << HTTP/1.1 401 Unauthorized
+2016-09-28 14:58:34,349 [DEBUG] org.apache.http.headers  - http-outgoing-4 << Server: openresty
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.headers  - http-outgoing-4 << Date: Wed, 28 Sep 2016 09:28:34 GMT
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.headers  - http-outgoing-4 << Content-Type: application/json; charset=utf-8
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.headers  - http-outgoing-4 << Content-Length: 107
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.headers  - http-outgoing-4 << Connection: keep-alive
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.headers  - http-outgoing-4 << X-Cache-Key: /data/2.5/weather?q=amsterdam
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.headers  - http-outgoing-4 << Access-Control-Allow-Origin: *
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.headers  - http-outgoing-4 << Access-Control-Allow-Credentials: true
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.headers  - http-outgoing-4 << Access-Control-Allow-Methods: GET, POST
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.impl.execchain.MainClientExec  - Connection can be kept alive indefinitely
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Authentication required
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - api.openweathermap.org:80 requested authentication
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.impl.auth.HttpAuthenticator  - Response contains no authentication challenges
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection [id: 4][route: {}->http://api.openweathermap.org:80] can be kept alive indefinitely
+2016-09-28 14:58:34,359 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 4][route: {}->http://api.openweathermap.org:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2016-09-28 14:58:34,399 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager is shutting down
+2016-09-28 14:58:34,399 [DEBUG] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-3: Close connection
+2016-09-28 14:58:34,399 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager shut down
+2016-09-28 14:58:34,399 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager is shutting down
+2016-09-28 14:58:34,399 [DEBUG] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-2: Close connection
+2016-09-28 14:58:34,399 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager shut down
+2016-09-28 14:58:34,399 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager is shutting down
+2016-09-28 14:58:34,399 [DEBUG] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-1: Close connection
+2016-09-28 14:58:34,399 [DEBUG] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection manager shut down

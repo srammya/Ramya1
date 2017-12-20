@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sinpost_Ecommerce_Suite" preserve-order="true">
+
+	<listeners>
+	 <listener class-name="com.specomm.uniqlo.testreport.TestListener"/> 
+	 <listener class-name="com.specomm.uniqlo.testreport.CustomReporterListener" />
+     <listener class-name="org.testng.reporters.SuiteHTMLReporter" />
+    
+    
+	</listeners>
+	
+	<test name="Uniqlo-sg TestCases">
+	<!-- Write your test execution from here -->
+	<classes>
+		 <class name="com.specomm.uniqlo.checkoutflows.GuestCheckoutWithVisaCard"/>
+<!-- 	<class name="com.specomm.uniqlo.accountcreation.NewAccountFlow"/> 
+	<class name="com.specomm.uniqlo.loginflow.InvalidUserNameFlow"/>
+	<class name="com.specomm.uniqlo.loginflow.InvalidPasswordFlow"/>
+	<class name="com.specomm.uniqlo.loginflow.ForgotPasswordFlow"/>
+	<class name="com.specomm.uniqlo.search.InValidItemSearchFlow"/>
+	<class name="com.specomm.uniqlo.search.ValidItemSearchFlow"/> 
+	 <class name="com.specomm.uniqlo.checkoutflows.GuestCheckoutWithVisaCard"/>
+	<class name="com.specomm.uniqlo.checkoutflows.GuestCheckoutWithMasterCard"/>
+	<class name="com.specomm.uniqlo.checkoutflows.LoginCheckoutWithVisaCard"/>
+	<class name="com.specomm.uniqlo.checkoutflows.LoginCheckoutWithMasterCard"/>
+	<class name="com.specomm.uniqlo.checkoutflows.LoginCheckoutNewAddressWithVisaCard"/>
+	<class name="com.specomm.uniqlo.checkoutflows.GuestCheckouttoNewAccountWithVisaCard"/>
+	<class name="com.specomm.uniqlo.continueshopping.ContinueShoppingFromDecline"/>
+	<class name="com.specomm.uniqlo.promotioncode.InvalidPromotionCode"/>    -->
+	
+	
+	
+
+	</classes>
+	</test> 
+
+	
+	
+
+</suite>

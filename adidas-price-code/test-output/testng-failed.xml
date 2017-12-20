@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sinpost_Ecommerce_Suite]">
+  <listeners>
+    <listener class-name="com.specomm.adidas.testreport.CustomReporterListener"/>
+    <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+    <listener class-name="com.specomm.adidas.testreport.TestListener"/>
+  </listeners>
+  <test name="Adidas-Price Validation Module(failed)">
+    <classes>
+      <class name="com.specomm.adidas.pricevalidation.PriceValidation">
+        <methods>
+          <include name="priceValidate"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.specomm.adidas.pricevalidation.PriceValidation -->
+    </classes>
+  </test> <!-- Adidas-Price Validation Module(failed) -->
+</suite> <!-- Failed suite [Sinpost_Ecommerce_Suite] -->

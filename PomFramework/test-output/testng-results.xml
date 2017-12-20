@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[***** checkLoginUser test has Passed *****]]>
+    </line>
+    <line>
+      <![CDATA[Test Name : checkLoginUser]]>
+    </line>
+    <line>
+      <![CDATA[***** checkLogoutUser test has Passed *****]]>
+    </line>
+    <line>
+      <![CDATA[Test Name : checkLogoutUser]]>
+    </line>
+  </reporter-output>
+  <suite name="Demo_Suite" duration-ms="19506" started-at="2016-12-20T08:17:27Z" finished-at="2016-12-20T08:17:47Z">
+    <groups>
+    </groups>
+    <test name="Email TestCases" duration-ms="19506" started-at="2016-12-20T08:17:27Z" finished-at="2016-12-20T08:17:47Z">
+      <class name="com.demo.gmai.loginflow.RegisteredLoginUserFlow">
+        <test-method status="PASS" signature="bTest()[pri:0, instance:com.demo.gmai.loginflow.RegisteredLoginUserFlow@6a6afff2]" name="bTest" is-config="true" duration-ms="11500" started-at="2016-12-20T13:47:27Z" finished-at="2016-12-20T13:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest -->
+        <test-method status="PASS" signature="checkLoginUser(java.lang.String, java.lang.String)[pri:1, instance:com.demo.gmai.loginflow.RegisteredLoginUserFlow@6a6afff2]" name="checkLoginUser" duration-ms="1124" started-at="2016-12-20T13:47:39Z" data-provider="getData" finished-at="2016-12-20T13:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumcoach]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[selenium111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[***** checkLoginUser test has Passed *****]]>
+            </line>
+            <line>
+              <![CDATA[Test Name : checkLoginUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLoginUser -->
+        <test-method status="PASS" signature="checkLogoutUser()[pri:2, instance:com.demo.gmai.loginflow.RegisteredLoginUserFlow@6a6afff2]" name="checkLogoutUser" duration-ms="5386" started-at="2016-12-20T13:47:40Z" finished-at="2016-12-20T13:47:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[***** checkLogoutUser test has Passed *****]]>
+            </line>
+            <line>
+              <![CDATA[Test Name : checkLogoutUser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkLogoutUser -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.demo.gmai.loginflow.RegisteredLoginUserFlow@6a6afff2]" name="quitDriver" is-config="true" duration-ms="1457" started-at="2016-12-20T13:47:45Z" finished-at="2016-12-20T13:47:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.demo.gmai.loginflow.RegisteredLoginUserFlow -->
+    </test> <!-- Email TestCases -->
+  </suite> <!-- Demo_Suite -->
+</testng-results>
