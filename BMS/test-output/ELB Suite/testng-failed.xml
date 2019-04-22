@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ELB Suite]" parallel="tests">
+  <test thread-count="2" name="ELBFLOW(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <parameter name="appURL" value="http://elb-test.volvocars.biz/ElbApp/init.do"/>
+    <classes>
+      <class name="com.volvo.elb.test.TestValidaddproject">
+        <methods>
+          <include name="addproject_test" invocation-numbers="0"/>
+          <include name="endTest"/>
+          <include name="afterMethods"/>
+          <include name="setUp"/>
+          <include name="InitTestMethod"/>
+          <include name="cleanUp"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.volvo.elb.test.TestValidaddproject -->
+    </classes>
+  </test> <!-- ELBFLOW(failed) -->
+</suite> <!-- Failed suite [ELB Suite] -->

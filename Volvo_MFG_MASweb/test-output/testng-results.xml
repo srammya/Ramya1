@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="43" total="44" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1087416" started-at="2018-10-24T08:33:37Z" finished-at="2018-10-24T08:51:45Z">
+    <groups>
+    </groups>
+    <test name="AGV_FLOW_1" duration-ms="1087416" started-at="2018-10-24T08:33:37Z" finished-at="2018-10-24T08:51:45Z">
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@7c29daf3]" name="beforeSuite" is-config="true" duration-ms="397" started-at="2018-10-24T14:03:37Z" finished-at="2018-10-24T14:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@7c29daf3]" name="beforeTest" is-config="true" duration-ms="12723" started-at="2018-10-24T14:03:37Z" finished-at="2018-10-24T14:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="AGV_ASSIGNMENTLIST_DELIVERY(java.lang.String)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@7c29daf3]" name="AGV_ASSIGNMENTLIST_DELIVERY" duration-ms="1073895" started-at="2018-10-24T14:03:50Z" description="RACK Changer End-to-End flow" finished-at="2018-10-24T14:21:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AGV_Scenario_01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AGV_ASSIGNMENTLIST_DELIVERY -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@7c29daf3]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-10-24T14:03:50Z" finished-at="2018-10-24T14:03:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AGV_Scenario_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.volvo.mfg.StepDefinition.DriverSuite.AGV_ASSIGNMENTLIST_DELIVERY(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@25ad4f71]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@7c29daf3]" name="afterMethod" is-config="true" duration-ms="16" started-at="2018-10-24T14:21:44Z" finished-at="2018-10-24T14:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@7c29daf3]" name="afterTest" is-config="true" duration-ms="626" started-at="2018-10-24T14:21:44Z" finished-at="2018-10-24T14:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite(java.lang.String)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@7c29daf3]" name="afterSuite" is-config="true" duration-ms="5290" started-at="2018-10-24T14:21:45Z" finished-at="2018-10-24T14:21:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.volvo.mfg.StepDefinition.DriverSuite -->
+    </test> <!-- AGV_FLOW_1 -->
+  </suite> <!-- Suite -->
+</testng-results>

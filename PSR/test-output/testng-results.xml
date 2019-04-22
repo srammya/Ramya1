@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MFG Suite" duration-ms="69001" started-at="2019-01-10T10:41:37Z" finished-at="2019-01-10T10:42:46Z">
+    <groups>
+    </groups>
+    <test name="IDNEFLOW" duration-ms="69001" started-at="2019-01-10T10:41:37Z" finished-at="2019-01-10T10:42:46Z">
+      <class name="com.volvo.psr.test.TestSavedTestProReports">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.volvo.psr.test.TestSavedTestProReports@1f36e637]" name="startTest" is-config="true" duration-ms="235" started-at="2019-01-10T16:11:37Z" finished-at="2019-01-10T16:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.volvo.psr.test.TestSavedTestProReports@1f36e637]" name="setUp" is-config="true" duration-ms="93" started-at="2019-01-10T16:11:37Z" finished-at="2019-01-10T16:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InitTestMethod(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.volvo.psr.test.TestSavedTestProReports@1f36e637]" name="InitTestMethod" is-config="true" duration-ms="8705" started-at="2019-01-10T16:11:38Z" finished-at="2019-01-10T16:11:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://psr-test.volvocars.biz/pdd/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.volvo.psr.test.TestSavedTestProReports.testProReport(java.util.LinkedHashMap) throws java.io.IOException,java.lang.InterruptedException,java.lang.ClassNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTestMethod -->
+        <test-method status="PASS" signature="testProReport(java.util.LinkedHashMap)[pri:0, instance:com.volvo.psr.test.TestSavedTestProReports@1f36e637]" name="testProReport" duration-ms="58130" started-at="2019-01-10T16:11:46Z" data-provider="TestDataProvider" finished-at="2019-01-10T16:12:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC_No=TC_01, TestCase_Name=testProReport, Execution_Status=Yes, UserName=mkulala, Password=6q1n0f2u3m2g@qaxhldlebV3, UnitId=87471, KPI=66,67, Flag=0, EndDate=12/21/2018, milestoneAbrr=PS}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProReport -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.volvo.psr.test.TestSavedTestProReports@1f36e637]" name="afterMethods" is-config="true" duration-ms="964" started-at="2019-01-10T16:12:44Z" finished-at="2019-01-10T16:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.volvo.psr.test.TestSavedTestProReports@1f36e637]" name="cleanUp" is-config="true" duration-ms="761" started-at="2019-01-10T16:12:45Z" finished-at="2019-01-10T16:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.volvo.psr.test.TestSavedTestProReports@1f36e637]" name="endTest" is-config="true" duration-ms="0" started-at="2019-01-10T16:12:46Z" finished-at="2019-01-10T16:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.volvo.psr.test.TestSavedTestProReports -->
+    </test> <!-- IDNEFLOW -->
+  </suite> <!-- MFG Suite -->
+</testng-results>

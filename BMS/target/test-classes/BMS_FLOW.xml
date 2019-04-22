@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BMS Suite" parallel="tests" thread-count="2">
+ 
+ 
+  
+   
+   <!-- browser = IE, CHROME, FIREFOX -->
+  <test name="BMS_FLOW" >
+  
+
+<parameter name="browser" value="IE"/>
+<parameter name="appURL" value="http://bms.qa.volvocars.net//"/>
+  <classes>
+    
+      <class name="com.volvo.BMS.test.TestValidaddproject"/>
+	    </classes>
+     </test>
+       
+     
+ 
+</suite> <!-- Suite -->

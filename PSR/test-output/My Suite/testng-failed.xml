@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Suite]">
+  <listeners>
+    <listener class-name="com.specomm.adidas.testreport.CustomReporterListener"/>
+  </listeners>
+  <test name="Singapore Post loginCheckOutFlows(failed)">
+    <classes>
+      <class name="com.specomm.adidas.executionflow.LoginCheckoutWithVisaCard">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="checkoutAsloginUser" invocation-numbers="0"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.specomm.adidas.executionflow.LoginCheckoutWithVisaCard -->
+    </classes>
+  </test> <!-- Singapore Post loginCheckOutFlows(failed) -->
+</suite> <!-- Failed suite [My Suite] -->

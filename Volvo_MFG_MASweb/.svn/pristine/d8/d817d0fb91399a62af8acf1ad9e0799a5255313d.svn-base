@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="177335" started-at="2018-03-05T07:14:26Z" finished-at="2018-03-05T07:17:23Z">
+    <groups>
+    </groups>
+    <test name="ADMIN_FLOW" duration-ms="177335" started-at="2018-03-05T07:14:26Z" finished-at="2018-03-05T07:17:23Z">
+      <class name="com.volvo.mfg.StepDefinition.DriverSuite">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5025a98f]" name="beforeSuite" is-config="true" duration-ms="4840" started-at="2018-03-05T12:44:21Z" finished-at="2018-03-05T12:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5025a98f]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-03-05T12:44:26Z" finished-at="2018-03-05T12:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TEST_PRINTER(java.lang.String)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5025a98f]" name="TEST_PRINTER" duration-ms="177334" started-at="2018-03-05T12:44:26Z" description="Admin End-to-End flow" finished-at="2018-03-05T12:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin_TestPrinter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TEST_PRINTER -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5025a98f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-05T12:44:26Z" finished-at="2018-03-05T12:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin_TestPrinter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.volvo.mfg.StepDefinition.DriverSuite.TEST_PRINTER(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@3fc08eec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5025a98f]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-03-05T12:47:23Z" finished-at="2018-03-05T12:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5025a98f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-03-05T12:47:23Z" finished-at="2018-03-05T12:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.volvo.mfg.StepDefinition.DriverSuite@5025a98f]" name="afterSuite" is-config="true" duration-ms="953" started-at="2018-03-05T12:47:23Z" finished-at="2018-03-05T12:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.volvo.mfg.StepDefinition.DriverSuite -->
+    </test> <!-- ADMIN_FLOW -->
+  </suite> <!-- Suite -->
+</testng-results>

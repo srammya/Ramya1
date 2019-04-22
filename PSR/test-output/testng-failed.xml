@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [MFG Suite]">
+  <parameter name="pdfngreport-properties" value="pdfngreport.properties"/>
+  <test name="IDNEFLOW(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="appURL" value="http://psr-test.volvocars.biz/pdd/"/>
+    <classes>
+      <class name="com.volvo.psr.test.TestSavedTestProReports">
+        <methods>
+          <include name="startTest"/>
+          <include name="afterMethods"/>
+          <include name="testProReport" invocation-numbers="0"/>
+          <include name="InitTestMethod"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.volvo.psr.test.TestSavedTestProReports -->
+    </classes>
+  </test> <!-- IDNEFLOW(failed) -->
+</suite> <!-- Failed suite [MFG Suite] -->

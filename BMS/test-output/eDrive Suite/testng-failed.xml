@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [eDrive Suite]" parallel="tests">
+  <test thread-count="2" name="EDRIVEFLOW(failed)" parallel="tests">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="appURL" value="http://edrive-test.volvocars.biz/"/>
+    <classes>
+      <class name="com.volvo.eDrive.test.TestValidaddproject">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethods"/>
+          <include name="setUp"/>
+          <include name="Driver_Reporting" invocation-numbers="0"/>
+          <include name="InitTestMethod"/>
+          <include name="cleanUp"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- com.volvo.eDrive.test.TestValidaddproject -->
+    </classes>
+  </test> <!-- EDRIVEFLOW(failed) -->
+</suite> <!-- Failed suite [eDrive Suite] -->

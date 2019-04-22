@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MFG Suite" parallel="tests" thread-count="2">
+
+	<parameter name="pdfngreport-properties"
+		value="pdfngreport.properties" />
+
+	
+	<!-- browser = IE, CHROME, FIREFOX -->
+
+<test name="IDNEFLOW">
+<parameter name="appURL" value="http://psr-test.volvocars.biz/pdd/"/>
+<parameter name="browser" value="CHROME"/>
+<classes>
+ <class name="com.volvo.psr.test.TestSavedTestProReports"/>
+
+</classes>
+</test>
+</suite>
+
+
+
+
+
+   

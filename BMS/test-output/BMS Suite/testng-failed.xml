@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [BMS Suite]" parallel="tests">
+  <test thread-count="2" name="BMS_FLOW(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <parameter name="appURL" value="http://bms.qa.volvocars.net//"/>
+    <classes>
+      <class name="com.volvo.BMS.test.TestValidaddproject">
+        <methods>
+          <include name="afterMethods"/>
+          <include name="endTest"/>
+          <include name="startTest"/>
+          <include name="BMS_Homepage" invocation-numbers="0"/>
+          <include name="InitTestMethod"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.volvo.BMS.test.TestValidaddproject -->
+    </classes>
+  </test> <!-- BMS_FLOW(failed) -->
+</suite> <!-- Failed suite [BMS Suite] -->

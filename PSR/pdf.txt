@@ -1,0 +1,163 @@
+( 2016-05-31 13:42 )Milestone/Gateway: Organisation: 93000 Report Week: 16W22 
+Report Author: Patrik Lundgren
+Milestone/Gateway purpose
+Decisions to be taken
+Issue date: 1/10/19 11:42AM, Security Class: Proprietary
+Page 1 of 5
+Milestone Summary Report - 
+Program Content
+519A
+Program Start
+242402 VEHICLE HARDWARE
+Milestone/GATEWAY Summary Report
+The purpose at <PS> is to start the program and set prerequisites,
+mission, targets and program finance and to get program funding
+approval up to <PC> (Program Confirmation).
+Decide program mission, targets and finance.
+Start of program including program funding up to <PC>.
+Decide if a separate LLF-decision is necessary prior to the <PC>-timing.
+Decide program prerequisites including but not limited to:
+   - Decide Vehicle program plan (VPP).
+   - Confirm Single Model Selection (SMS).
+   - Confirm sourcing plan.
+   - Decide Quality target.
+   - Confirm Selection of technical systems:
+       - Function Decision Alternative (FDA).
+       - Preliminary selection of dimensional and systems (PS-systems)
+         according to sign off plan.
+- DECOUPLE
+· 12V Enhanced Regean 
+· Body
+· Interior
+· Func Black Trim
+
+· 48V E-KERS 
+· Body
+· Interior
+· Func Black Trim
+
+242402 VEHICLE HARDWARE
+242402 VEHICLE HARDWARE
+( 2016-05-31 13:42 )Report Week: 16W22 Organisation: 93000Milestone/Gateway:
+Report Author: Patrik Lundgren
+· VEA GEN3 
+· Exterior
+· Body
+· Func Black Trim
+
+· ADAS 
+· Interior
+· Exterior
+
+· iCUP
+ 
+ - Face Lift
+· XC90
+- PM2.5
+- V-PHEV
+- Legal
+· Top Tether
+- CO2
+· R1234YF Refrigirant US
+- Labels
+ 
+Issue date: 1/10/19 11:42AM, Security Class: Proprietary
+Page 2 of 5
+Milestone Summary Report - 
+519A
+Program Start
+Milestone/GATEWAY Summary Report
+242402 VEHICLE HARDWARE
+242402 VEHICLE HARDWARE
+( 2016-05-31 13:42 )Report Week: 16W22 Organisation: 93000Milestone/Gateway:
+Report Author: Patrik Lundgren
+Issue date: 1/10/19 11:42AM, Security Class: Proprietary
+Page 3 of 5
+Milestone Summary Report - 
+Information on made agreements
+519A
+Program Start
+Milestone/GATEWAY Summary Report
+- DECOUPLE
+·  12/48V & VEA GEN3 
+· Not use Std battery sudy (100mm)
+· Cable routing behind load floor supprt
+
+· ADAS 
+· Both XC90 & S/V90
+· No changes on S/V90 soft nose & spoiler. Only lower mesh
+
+ - Face Lift
+· Only for XC90
+- PM2.5
+· Only Chines market
+· Missing in-port in CCM
+- V-PHEV
+· Develop so called "Flat rear floor"
+- Legal
+· Top teather
+· Follow V43X concept. 
+· Request from PSVL of C/O plastic covers
+· Requst from Design: Study how can the cover be smaller
+
+- CO2
+- Labels
+242402 VEHICLE HARDWARE
+242402 VEHICLE HARDWARE
+( 2016-05-31 13:42 )Report Week: 16W22 Organisation: 93000Milestone/Gateway:
+Report Author: Patrik Lundgren
+Issue date: 1/10/19 11:42AM, Security Class: Proprietary
+Page 4 of 5
+Milestone Summary Report - 
+Key open issues
+519A
+Program Start
+Milestone/GATEWAY Summary Report
+VCU1 psoition
+· VCU1 (KERS, PHEV & BEV). differant alternatives for position.  Modify B&T parts? YELLOW
+ 
+12/48V Power Supply
+· Cable routing 48V wheel house routing not decided. for now YELLOW
+ 
+VEA GEN3
+· VEA GEN3 might drive non integrated end pipes. YELLOW
+ 
+ADAS
+· Driver Monitoring Camera position in IP speaker mesh not fully devloped & approved.YELLOW
+· ADAS intro V54X 519A. Unclear if main track is radar behind emblem or lwr mesh YELLOW
+ 
+ iCUP
+· iCUP drives a 4” DIM à V526 IP without FWC. Proposal to keep plastc collise w/o LED.  YELLOW
+ 
+V-PHEV
+· Package V-PHEV ongoing Work ongoing. Package meeting started YELLOW
+· GPF package discusion initiated. YELLOW
+ 
+Advanced Air Ceaner Sensor
+· PM2.5 in-port in CCM is missing EE&C attention. YELLEW
+· PM2.5 sensor position glove box consealing. Not loged decision. YELLOW
+ 
+Face Lift
+· Chrome list length Too long. Should be divided. Design to come back YELLOW 
+ 
+Investiagtion
+· USB-C front tunnel ongoing but USB-C in 2nd row is unclear position. 
+·  Larger tank V-PHEV: B&T Consiquenses not clarified 
+ 
+EXTRA
+· V431 R-Design moved to 519A or not
+· V431 8 exterior colors moved to 519A?
+· New upholstery concept for R-design incl. a light version. Unclear
+242402 VEHICLE HARDWARE
+242402 VEHICLE HARDWARE
+( 2016-05-31 13:42 )Report Week: 16W22 Organisation: 93000Milestone/Gateway:
+Report Author: Patrik Lundgren
+Issue date: 1/10/19 11:42AM, Security Class: Proprietary
+Page 5 of 5
+Milestone Summary Report - 
+Recommendations and wanted decisions
+519A
+Program Start
+Milestone/GATEWAY Summary Report
+B&T UTM Recomendation: Gate open to <PC>
+242402 VEHICLE HARDWARE

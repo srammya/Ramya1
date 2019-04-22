@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BMS Suite" duration-ms="42889" started-at="2019-02-20T07:35:32Z" finished-at="2019-02-20T07:36:15Z">
+    <groups>
+    </groups>
+    <test name="BMS_FLOW" duration-ms="42889" started-at="2019-02-20T07:35:32Z" finished-at="2019-02-20T07:36:15Z">
+      <class name="com.volvo.BMS.test.TestValidaddproject">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.volvo.BMS.test.TestValidaddproject@3d99d22e]" name="startTest" is-config="true" duration-ms="542" started-at="2019-02-20T07:35:32Z" finished-at="2019-02-20T07:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.volvo.BMS.test.TestValidaddproject@3d99d22e]" name="setUp" is-config="true" duration-ms="166" started-at="2019-02-20T07:35:32Z" finished-at="2019-02-20T07:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="InitTestMethod(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.volvo.BMS.test.TestValidaddproject@3d99d22e]" name="InitTestMethod" is-config="true" duration-ms="16496" started-at="2019-02-20T07:35:33Z" finished-at="2019-02-20T07:35:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://bms.qa.volvocars.net//]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.volvo.BMS.test.TestValidaddproject.BMS_Homepage(java.util.LinkedHashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitTestMethod -->
+        <test-method status="PASS" signature="BMS_Homepage(java.util.LinkedHashMap)[pri:0, instance:com.volvo.BMS.test.TestValidaddproject@3d99d22e]" name="BMS_Homepage" duration-ms="24245" started-at="2019-02-20T07:35:49Z" data-provider="TestDataProvider" finished-at="2019-02-20T07:36:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC_No=TC_01, TestCase_Name=BMS_Homepage, Execution_Status=Yes, userID=mbaskara, Password=3v!srjeynrnlivW2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMS_Homepage -->
+        <test-method status="PASS" signature="afterMethods()[pri:0, instance:com.volvo.BMS.test.TestValidaddproject@3d99d22e]" name="afterMethods" is-config="true" duration-ms="0" started-at="2019-02-20T07:36:13Z" finished-at="2019-02-20T07:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethods -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.volvo.BMS.test.TestValidaddproject@3d99d22e]" name="cleanUp" is-config="true" duration-ms="1254" started-at="2019-02-20T07:36:13Z" finished-at="2019-02-20T07:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.volvo.BMS.test.TestValidaddproject@3d99d22e]" name="endTest" is-config="true" duration-ms="0" started-at="2019-02-20T07:36:15Z" finished-at="2019-02-20T07:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.volvo.BMS.test.TestValidaddproject -->
+    </test> <!-- BMS_FLOW -->
+  </suite> <!-- BMS Suite -->
+</testng-results>
